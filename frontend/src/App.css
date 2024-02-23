@@ -1,0 +1,72 @@
+
+.headr{
+    background: linear-gradient(rgb(138, 115, 71),rgb(190, 185, 185),rgb(151, 125, 76));
+}
+.img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+}
+.mainBody
+{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: space-around;
+}
+.childBody
+{
+    width:370px;
+    height:590px;
+    background: linear-gradient(rgb(138, 115, 71),rgb(178, 167, 167),rgb(151, 125, 76));
+    border-radius:20px;
+    margin:10px;
+}
+.wlimg{
+    width:200px;
+    height:200px;
+    border-radius:30px;
+}
+.mainDiv{
+    width:100%;
+    height: auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.wldiv{
+    background: linear-gradient(rgb(184, 100, 184),rgb(182, 169, 169),rgb(188, 108, 188));
+    margin:10px;
+}
+.cdiv{
+    background: linear-gradient(rgb(229, 167, 52),rgb(195, 98, 98),rgb(199, 152, 63));  
+    margin:10px;
+}
+.addressBox{
+    height:100px;
+}
+.minDiv{
+    background:linear-gradient(rgb(123, 123, 235),rgb(237, 212, 212),rgb(99, 99, 222))
+}
+.moimg{
+    width:100px;
+    height:100px;
+    border-radius:10px;
+}
+.moDiv{
+    width:100%;
+    height: auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.modiv{
+    background: linear-gradient(rgb(58, 55, 55),rgb(185, 178, 178),rgb(50, 47, 47));
+    margin:10px;
+    width:500px;
+}
