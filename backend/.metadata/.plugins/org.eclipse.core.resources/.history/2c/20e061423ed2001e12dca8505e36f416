@@ -1,0 +1,38 @@
+package com.backend.www.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.backend.www.model.Orders;
+import com.backend.www.repo.OrderRepo;
+
+@Service
+public class OrderService 
+{
+	@Autowired
+	OrderRepo orderRepo;
+	
+	public String addBookToOrder(Orders book)
+	{
+		orderRepo.save(book);
+		return "book added to cart";
+	}
+	
+	public List<Orders> getAllOrderBooks()
+	{
+		return orderRepo.findAll();
+	}
+	
+	public Object getOrderBookById(long bookId)
+	{
+		return orderRepo.findById(bookId);
+	}
+	
+	public String deleteOrderBook(long bookId)
+	{
+		orderRepo.deleteById(bookId);
+		return "cart book deleted";
+	}
+}
